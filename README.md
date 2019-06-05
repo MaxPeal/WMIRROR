@@ -10,7 +10,7 @@ wmirror allows you to download any website from the Internet to a local director
 
 ### Preview: 
 
-![Screenshot](https://nr1.nu/archive/wmirror/wmirror.gif)
+![Screenshot](https://nr1.nu/archive/wmirror/wmirror1.gif)
 
 ### Get Started On Linux/MacOSX
 
