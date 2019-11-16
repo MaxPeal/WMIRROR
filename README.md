@@ -5,19 +5,15 @@ wmirror allows you to download any website from the Internet to a local director
 
 | Version            |  Released      | Tested On                          |
 | :----------------- | :------------- | :----------------------------------|
-| `1.0`              |  2019-06-19    | Linux - Windows - MacOS - Android  |
+| `1.2`              |  2019-06-19    | Linux - Windows - MacOS - Android  |
 
-
-### Preview: 
-
-![Screenshot](https://nr1.nu/archive/wmirror/wmirror1.gif)
 
 ### Get Started On Linux/MacOSX
 
      git clone https://github.com/wuseman/wmirror
      cd wmirror
      chmod +x wmirror
-     ./wmirror -h
+     ./wmirror -u <url> -p <path_to_store_data>
 
 ### System requirements
 
