@@ -5,7 +5,8 @@ wmirror allows you to download any website from the Internet to a local director
 
 | Version            |  Released      | Tested On                          |
 | :----------------- | :------------- | :----------------------------------|
-| `1.2`              |  2019-06-19    | Linux - Windows - MacOS - Android  |
+| `1.2`              |  2019-11-16    | Linux - Windows - MacOS - Android  |
+| `1.0`              |  2019-06-19    | Linux - Windows - MacOS - Android  |
 
 
 ### Get Started On Linux/MacOSX
