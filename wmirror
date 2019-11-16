@@ -1,4 +1,5 @@
 #!/bin/bash
+VERSION=1.2
 ################################################################################
 ################################################################################
 ####                                                                       #####
@@ -53,10 +54,11 @@ exit 1
 if [[ -z $1 ]]; then usage;exit 1; fi
 
 
-while getopts ":u:p:" getopts; do
+while getopts ":u:p:v" getopts; do
   case $getopts in
     u) u=$OPTARG ;;
     p) p=$OPTARG ;;
+    v) echo -e "$basename$0: v$VERSION"; exit 1 ;;
     \?) echo -e "$basename$0: internal error -- $* is not a valid option, exiting ...;" exit 1 ;; 
     *) echo -e "$basename$0: internal error -- $* is not a valid option, exiting ...;" exit 1 ;; 
   esac
