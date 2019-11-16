@@ -44,8 +44,10 @@ cat << EOF
 
  Usage: ./wmirror.sh -u <url> [options]
 
+     -h                 - Print this useful help
      -u                 - This option is required and will set the url to target" 
      -p                 - Path to save your downloaded data
+     -v                 - Print installed version
 
 EOF
 exit 1
@@ -54,10 +56,11 @@ exit 1
 if [[ -z $1 ]]; then usage;exit 1; fi
 
 
-while getopts ":u:p:v" getopts; do
+while getopts ":u:p:vh" getopts; do
   case $getopts in
     u) u=$OPTARG ;;
     p) p=$OPTARG ;;
+    h) usage ;;
     v) echo -e "$basename$0: v$VERSION"; exit 1 ;;
     \?) echo -e "$basename$0: internal error -- $* is not a valid option, exiting ...;" exit 1 ;; 
     *) echo -e "$basename$0: internal error -- $* is not a valid option, exiting ...;" exit 1 ;; 
