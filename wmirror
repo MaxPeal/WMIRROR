@@ -38,6 +38,28 @@ VERSION=1.2
 ################################################################################
 ################################################################################
 
+# MIRROR A SITE
+# ADD THIS TO SCRIPT LATER:
+
+# wget --no-parent --timestamping --convert-links --page-requisites --no-directories --no-host-directories -erobots=off http://domain.tld/webpage.html
+# or
+# wget -E -H -k -K -p http://www.example.com/
+# or
+# wget -r -N -l inf --no-remove-listing
+# or below from: https://github.com/webjay/webtography/blob/master/lib/wget.js#L15-L26
+# --user-agent=Webtography
+# --no-cookies
+# --timestamping
+# --recursive
+# --level=1
+# --convert-links 
+# --no-parent
+# --page-requisites
+# --adjust-extension
+# --max-redirect=0
+# --exclude-directories=blog
+
+
 
 usage() {
 cat << EOF
