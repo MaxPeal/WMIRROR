@@ -64,6 +64,11 @@ VERSION=1.2
 # wget --mirror --convert-links --adjust-extension --page-requisites --span-hosts -U Mozilla -e robots=off --no-cookies -D www.mywebsite.com,files.mywebsite.com,images.somewhere.com http://www.mywebsite.com/
 # wget --mirror --convert-links --adjust-extension --page-requisites --span-hosts -D www.mywebsite.com,files.mywebsite.com,images.somewhere.com http://www.mywebsite.com/
 
+
+# 
+# wget -m -np -p $url
+# -p to download everything required to display a page is useful.
+
 usage() {
 cat << EOF
 
