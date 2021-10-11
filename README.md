@@ -1,10 +1,13 @@
 # WMIRROR
 
+A really simple and minimal script for mirroring websites, it does what it is supposed to do really ezi, for more heavy clone using httrack or something else.
+
 wmirror allows you to download any website from the Internet to a local directory, building recursively all directories, getting HTML, images, and other files from the server to your computer. 
 
 
 | Version            |  Released      | Tested On                          |
 | :----------------- | :------------- | :----------------------------------|
+| `1.3`              |  2019-11-16    | Linux - Windows - MacOS - Android  |
 | `1.2`              |  2019-11-16    | Linux - Windows - MacOS - Android  |
 | `1.0`              |  2019-06-19    | Linux - Windows - MacOS - Android  |
 
